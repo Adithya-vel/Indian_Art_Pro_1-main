@@ -1,5 +1,5 @@
 import type { Period, Artifact } from '../types';
-import { ArtifactCard } from './ArtifactCard';
+import { ArtifactCard } from './ArtifactCard.tsx'; 
 import { motion } from 'framer-motion';
 import { ChevronRight } from 'lucide-react';
 
@@ -126,3 +126,4 @@ export function Timeline({ periods, artifacts, activePeriodId, onPeriodSelect, o
     </section>
   );
 }
+
